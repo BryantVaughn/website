@@ -66,8 +66,9 @@ export default function Home() {
         }
 
         .about {
-          background: url(../public/img/campnou.jpeg);
           height: 100%;
+          width: 100%;
+          background-image: url(${require("../public/img/campnou.jpeg")});
         }
       `}</style>
 

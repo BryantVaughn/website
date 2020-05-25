@@ -1,3 +1,7 @@
 export default function Bio() {
-  return <h1>Bio Component</h1>
+  return (
+    <div className="content">
+      <h1>Bio Component</h1>
+    </div>
+  );
 }
