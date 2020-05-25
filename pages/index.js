@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import Bio from '../components/Bio';
+import img from '../public/img/campnou.jpg';
 
 export default function Home() {
   return (
@@ -44,7 +45,7 @@ export default function Home() {
         }
         .nav-container a {
           text-decoration: none;
-          color: #000;
+          color: #fff;
         }
 
         .nav-items {
@@ -54,7 +55,7 @@ export default function Home() {
         }
         .nav-items a {
           text-decoration: none;
-          color: rgba(0,0,0,0.6);
+          color: rgba(255,255,255,0.6);
           transition: 0.3s ease-in-out;
         }
         .nav-items a:hover {
@@ -66,9 +67,11 @@ export default function Home() {
         }
 
         .about {
-          height: 100%;
+          background-image: url(${img});
+          height: 100vh;
           width: 100%;
-          background-image: url(${require("../public/img/campnou.jpeg")});
+          background-repeat: no-repeat;
+          background-size: cover;
         }
       `}</style>
 
