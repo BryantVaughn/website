@@ -5,6 +5,7 @@ import Resume from '../components/Resume';
 import img from '../public/img/denver.jpg';
 
 export default function Home() {
+
   return (
     <>
       <Head>

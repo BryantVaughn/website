@@ -6,6 +6,7 @@ export default function Bio() {
       <h2 className="title">Bryant Vaughn</h2>
       <img className="image" src={img} />
       <h5 className="sub-text">Front-end Developer</h5>
+      <h6>Denver, CO</h6>
 
       <style jsx>{`
         .content {
@@ -15,6 +16,9 @@ export default function Bio() {
           text-transform: uppercase;
           letter-spacing: 0.15rem;
           color: #fff;
+        }
+        .content h6 {
+          font-weight: 100;
         }
 
         .title {

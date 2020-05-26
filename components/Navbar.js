@@ -1,5 +1,4 @@
 import Head from 'next/head';
-import styles from './Navbar.module.css';
 
 export default function Navbar() {
   return (
@@ -24,19 +23,58 @@ export default function Navbar() {
           crossorigin="anonymous"></script>
       </Head>
       <main>
-        <div className={styles.container}>
-          <nav className="navbar fixed-top navbar-expand-lg">
-            <a className="navbar-brand" href="#about">Bryant Vaughn</a>
-            <div className="collapse navbar-collapse" id="nav-items">
-              <div className="navbar-nav">
-                <a href="#resume">Resume</a>
-                <a href="#projects">Projects</a>
-                <a href="#contact">Contact</a>
-              </div>
+        <nav className="navbar fixed-top navbar-expand-lg">
+          <a className="navbar-brand" href="#about">Bryant Vaughn</a>
+          <div className="collapse navbar-collapse" id="nav-items">
+            <div className="navbar-nav">
+              <a href="#resume">Resume</a>
+              <a href="#projects">Projects</a>
+              <a href="#contact">Contact</a>
             </div>
-          </nav>
-        </div>
+          </div>
+        </nav>
       </main>
+      <style jsx>{`
+        @media only screen and (max-width: 1200px) {
+          .navbar { padding: 1rem 2rem; }
+        }
+        @media only screen and (min-width: 1200px) {
+          .navbar { padding: 1rem 20rem; }
+        }
+        @media only screen and (min-width: 1600px) {
+          .navbar { padding: 1rem 30rem; }
+        }
+        @media only screen and (min-width: 2200px) {
+          .navbar { padding: 1rem 40rem; }
+        }
+        .navbar {
+          background-color: #000;
+          width: 100%;
+          display: flex;
+          justify-content: space-between;
+        }
+        .navbar a {
+          color: #fff;
+          text-decoration: none;
+          text-transform: uppercase;
+          letter-spacing: 0.15rem;
+        }
+
+        #nav-items {
+          display: flex;
+          justify-content: flex-end;
+        }
+
+        .navbar-nav a {
+          font-size: 14px;
+          font-weight: 500;
+          margin-left: 3rem;
+          transition: 0.3s ease-in-out;
+        }
+        .navbar-nav a:hover {
+          color: rgba(255,255,255,0.6);
+        }
+      `}</style>
     </>
   );
 }
