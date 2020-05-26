@@ -2,7 +2,8 @@ import Head from 'next/head';
 import Navbar from '../components/Navbar';
 import Bio from '../components/Bio';
 import Resume from '../components/Resume';
-import img from '../public/img/denver.jpg';
+import ProjectList from '../components/ProjectList';
+import denverImg from '../public/img/denver.jpg';
 
 export default function Home() {
 
@@ -24,7 +25,9 @@ export default function Home() {
         <div className="resume" id="resume">
           <Resume />
         </div>
-        <div id="section-three"></div>
+        <div className="projects" id="projects">
+          <ProjectList />
+        </div>
         <div id="section-four"></div>
       </main>
 
@@ -34,7 +37,7 @@ export default function Home() {
         }
 
         .about {
-          background-image: url(${img});
+          background-image: url(${denverImg});
           height: 100vh;
           width: 100%;
           background-repeat: no-repeat;
