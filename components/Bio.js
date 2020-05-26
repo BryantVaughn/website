@@ -6,7 +6,7 @@ export default function Bio() {
       <h2 className="title">Bryant Vaughn</h2>
       <img className="image" src={img} />
       <h5 className="sub-text">Front-end Developer</h5>
-    
+
       <style jsx>{`
         .content {
           display: block;
@@ -17,8 +17,11 @@ export default function Bio() {
           color: #fff;
         }
 
+        .title {
+          margin-top: 1rem;
+        }
+
         .sub-text {
-          font-weight: 200;
           margin: 0.5rem;
         }
 
@@ -26,7 +29,7 @@ export default function Bio() {
           border-radius: 50%;
           height: 260px;
           width: 260px;
-          box-shadow: 0 0 40px #fff;
+          box-shadow: 0 0 40px rgba(255,255,255,0.7);
           margin: 2.5rem;
         }
     `}</style>
