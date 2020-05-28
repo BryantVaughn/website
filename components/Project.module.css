@@ -18,7 +18,8 @@
 }
 .cardBody .title {
   text-transform: uppercase;
-  letter-spacing: 0.1rem;
+  letter-spacing: 0.15rem;
+  margin-bottom: 0.2rem;
 }
 .cardBody p {
   font-weight: 300;

@@ -16,15 +16,15 @@ export default [
   },
   {
     title: "Grocery List",
-    description: "",
+    description: "This is a simple grocery list app that I built to practice with React hooks for state management. I designed this app mostly for mobile browsers so it's usable when at the store. It utilizes browser storage so you can make your list beforehand then access it when shopping.",
     image: `${groceryListImg}`,
     githubUrl: "https://github.com/BryantVaughn/grocery-list",
     url: "https://grocery-list.bryantvaughn.now.sh/",
     id: 2
   },
   {
-    title: "Chee Z Jokes",
-    description: "",
+    title: "Chee-Z-Jokes",
+    description: "This is a fun joke app that I built to practice with CSS animations and React. It utilizes a dad jokes API to retrieve jokes and populate the list. Up and down voting jokes will change the emoji. My favorite feature is the laughing animation when hovering over the large emoji.",
     image: `${dadJokesImg}`,
     githubUrl: "https://github.com/BryantVaughn/CheeZjokes",
     url: "https://chee-z-jokes.bryantvaughn.now.sh/",
@@ -32,7 +32,7 @@ export default [
   },
   {
     title: "Lights Out",
-    description: "",
+    description: "A fun game based on the popular hand-held tech game of the 90s, Lights Out. The goal of the game is to turn all lights out on the board. To turn lights out you simply need to click on them, but be careful, the lights to the top, bottom, left, and right will change too!",
     image: `${lightsOutImg}`,
     githubUrl: "https://github.com/BryantVaughn/lights-out",
     url: "https://lights-out.bryantvaughn.now.sh/",
@@ -40,7 +40,7 @@ export default [
   },
   {
     title: "Dice Game",
-    description: "",
+    description: "A dice game that is based off the popular game Yahtzee! This was built using React and is currently optimized for larger desktop and laptop screens. You're given three rolls per turn and the goal is to accumulate as many points as possible.",
     image: `${diceGameImg}`,
     githubUrl: "https://github.com/BryantVaughn/yahtzee",
     url: "https://dice.bryantvaughn.now.sh/",
@@ -48,7 +48,7 @@ export default [
   },
   {
     title: "Demo Site",
-    description: "",
+    description: "This is a landing page I built for a fake Mountain Travel company to practice with CSS features such as flexbox. It is responsive and adjusts based on the screen size it's being viewed on.",
     image: `${demoSiteImg}`,
     githubUrl: "https://github.com/BryantVaughn/DemoSite",
     url: "https://demo-site.bryantvaughn.now.sh/",

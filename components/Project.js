@@ -10,8 +10,8 @@ export default function Project({ ...props }) {
         </h5>
         <p>{props.description}</p>
         <div className={styles.buttons}>
-          <button><a href={props.url}>Visit</a></button>
-          <button><a href={props.githubUrl}>Repo</a></button>
+          <button><a href={props.url} target="_blank">Visit</a></button>
+          <button><a href={props.githubUrl} target="_blank">Repo</a></button>
         </div>
       </div>
     </div>
