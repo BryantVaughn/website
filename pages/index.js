@@ -46,8 +46,6 @@ export default function Home() {
           background-repeat: no-repeat;
           background-size: cover;
         }
-
-
       `}</style>
 
       <style jsx global>{`
