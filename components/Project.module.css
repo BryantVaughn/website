@@ -22,12 +22,18 @@
 @media only screen and (min-width: 1550px) {
   .cardContainer { width: 31%; }
 }
+@media only screen and (min-width: 1800px) {
+  .cardContainer { width: 27%; }
+}
+@media only screen and (min-width: 2600px) {
+  .cardContainer { width: 24%; }
+}
 .cardContainer {
   height: 480px;
   border: 1px solid #d3d3d3;
   border-radius: 5px;
   margin-top: 1rem;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
   box-shadow: 3px 5px 3px rgba(0,0,0,0.1);
 }
 
@@ -61,6 +67,8 @@
   align-items: center;
   margin-top: auto;
   width: 100%;
+  position: absolute;
+  bottom: 1rem;
 }
 .buttons button {
   border: none;
@@ -68,7 +76,7 @@
   outline: none;
   background-color: transparent;
   width: 100%;
-  margin: 5px;
+  margin: 3px;
   transition: 0.2s ease-in;
 }
 .buttons button:hover {
