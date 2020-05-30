@@ -9,11 +9,31 @@ export default function Bio() {
       <h6>Denver, CO</h6>
 
       <style jsx>{`
+        @media only screen and (max-width: 480px) {
+          .content { padding-top: 50%; }
+        }
+        @media only screen and (min-width: 480px) {
+          .content { padding-top: 45%; }
+        }
+        @media only screen and (min-width: 600px) {
+          .content { padding-top: 40%; }
+        }
+        @media only screen and (min-width: 760px) {
+          .content { padding-top: 30%; }
+        }
+        @media only screen and (min-width: 1000px) {
+          .content { padding-top: 25%; }
+        }
+        @media only screen and (min-width: 1200px) {
+          .content { padding-top: 20%; }
+        }
+        @media only screen and (min-width: 1600px) {
+          .content { padding-top: 15%; }
+        }
         .content {
           height: 100vh;
           display: block;
           text-align: center;
-          padding-top: 10%;
           text-transform: uppercase;
           letter-spacing: 0.15rem;
           color: #fff;

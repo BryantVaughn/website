@@ -3,6 +3,7 @@ import Navbar from '../components/Navbar';
 import Bio from '../components/Bio';
 import Resume from '../components/Resume';
 import ProjectList from '../components/ProjectList';
+import Contact from '../components/Contact';
 import denverImg from '../public/img/denver.jpg';
 
 export default function Home() {
@@ -28,7 +29,9 @@ export default function Home() {
         <div className="projects" id="projects">
           <ProjectList />
         </div>
-        <div id="section-four"></div>
+        <div className="contact" id="contact">
+          <Contact />
+        </div>
       </main>
 
       <style jsx>{`
@@ -43,8 +46,6 @@ export default function Home() {
           background-repeat: no-repeat;
           background-size: cover;
         }
-
-
       `}</style>
 
       <style jsx global>{`
