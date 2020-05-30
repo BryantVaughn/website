@@ -10,6 +10,7 @@ export default function Bio() {
 
       <style jsx>{`
         .content {
+          height: 100vh;
           display: block;
           text-align: center;
           padding-top: 10%;

@@ -1,3 +1,39 @@
+@media only screen and (max-width: 1080px) {
+  .container {
+    width: 95%;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media only screen and (min-width: 1080px) {
+  .container {
+    width: 90%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+}
+@media only screen and (min-width: 1600px) {
+  .container {
+    width: 85%;
+    justify-content: space-between;
+  }
+}
+@media only screen and (min-width: 1800px) {
+  .container { width: 75%; }
+}
+@media only screen and (min-width: 2160px) {
+  .container { width: 70%; }
+}
 .container {
-  width: 100%;
+  display: flex;
+  margin: 2rem auto;
+}
+
+.title {
+  margin-top: 5rem;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.15rem;
+  font-weight: 300;
 }

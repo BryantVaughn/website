@@ -45,7 +45,7 @@ export default function Navbar() {
           .navbar { padding: 1rem 30rem; }
         }
         @media only screen and (min-width: 2200px) {
-          .navbar { padding: 1rem 40rem; }
+          .navbar { padding: 1rem 35rem; }
         }
         .navbar {
           background-color: #000;
