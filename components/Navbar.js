@@ -1,6 +1,15 @@
 import Head from 'next/head';
 
 export default function Navbar() {
+  const handleClick = (evt, id) => {
+    evt.preventDefault();
+    const yOffset = -70;
+    const element = document.getElementById(id);
+    const y = element.getBoundingClientRect().top + window.pageYOffset + yOffset;
+    
+    window.scrollTo({ top: y, behavior: "smooth" });
+  };
+
   return (
     <>
       <Head>
@@ -24,12 +33,28 @@ export default function Navbar() {
       </Head>
       <main>
         <nav className="navbar fixed-top navbar-expand-lg">
-          <a className="navbar-brand" href="#about">Bryant Vaughn</a>
+          <a
+            className="navbar-brand"
+            onClick={(evt) => handleClick(evt, "about")}
+          >
+            Bryant Vaughn</a>
           <div className="collapse navbar-collapse" id="nav-items">
             <div className="navbar-nav">
-              <a href="#resume">Resume</a>
-              <a href="#projects">Projects</a>
-              <a href="#contact">Contact</a>
+              <a
+                onClick={(evt) => handleClick(evt, "resume")}
+              >
+                Resume
+              </a>
+              <a
+                onClick={(evt) => handleClick(evt, "projects")}
+              >
+                Projects
+              </a>
+              <a
+                onClick={(evt) => handleClick(evt, "contact")}
+              >
+                Contact
+              </a>
             </div>
           </div>
         </nav>
@@ -58,6 +83,7 @@ export default function Navbar() {
           text-decoration: none;
           text-transform: uppercase;
           letter-spacing: 0.15rem;
+          cursor: pointer;
         }
 
         #nav-items {
