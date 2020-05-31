@@ -5,6 +5,7 @@ import Resume from '../components/Resume';
 import ProjectList from '../components/ProjectList';
 import Contact from '../components/Contact';
 import denverImg from '../public/img/denver.jpg';
+import resumeImg from '../public/img/resumeImg.png';
 
 export default function Home() {
 
@@ -45,6 +46,16 @@ export default function Home() {
           width: 100%;
           background-repeat: no-repeat;
           background-size: cover;
+        }
+
+        .resume {
+          background-image: url(${resumeImg});
+          height: 50vh;
+          width: 100%;
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-attachment: fixed;
+          z-index: -10;
         }
       `}</style>
 
