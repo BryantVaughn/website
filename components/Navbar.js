@@ -3,8 +3,11 @@ import Head from 'next/head';
 export default function Navbar() {
   const handleClick = (evt, id) => {
     evt.preventDefault();
-    let element = document.getElementById(id);
-    element.scrollIntoView({ behavior: "smooth", block: "start"});
+    const yOffset = -70;
+    const element = document.getElementById(id);
+    const y = element.getBoundingClientRect().top + window.pageYOffset + yOffset;
+    
+    window.scrollTo({ top: y, behavior: "smooth" });
   };
 
   return (
@@ -80,6 +83,7 @@ export default function Navbar() {
           text-decoration: none;
           text-transform: uppercase;
           letter-spacing: 0.15rem;
+          cursor: pointer;
         }
 
         #nav-items {
