@@ -5,7 +5,7 @@ import Resume from '../components/Resume';
 import ProjectList from '../components/ProjectList';
 import Contact from '../components/Contact';
 import denverImg from '../public/img/denver.jpg';
-import resumeImg from '../public/img/resumeImg.png';
+import resumeImg from '../public/img/resumeImg.jpg';
 
 export default function Home() {
 
