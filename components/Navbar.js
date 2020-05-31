@@ -37,34 +37,53 @@ export default function Navbar() {
             className="navbar-brand"
             onClick={(evt) => handleClick(evt, "about")}
           >
-            Bryant Vaughn</a>
-          <div className="collapse navbar-collapse" id="nav-items">
-            <div className="navbar-nav">
-              <a
-                onClick={(evt) => handleClick(evt, "resume")}
-              >
-                Resume
-              </a>
-              <a
-                onClick={(evt) => handleClick(evt, "projects")}
-              >
-                Projects
-              </a>
-              <a
-                onClick={(evt) => handleClick(evt, "contact")}
-              >
-                Contact
-              </a>
-            </div>
+            Bryant Vaughn
+          </a>
+          <div className="nav-items" id="nav-items">
+            <a
+              onClick={(evt) => handleClick(evt, "resume")}
+            >
+              Resume
+            </a>
+            <a
+              onClick={(evt) => handleClick(evt, "projects")}
+            >
+              Projects
+            </a>
+            <a
+              onClick={(evt) => handleClick(evt, "contact")}
+            >
+              Contact
+            </a>
           </div>
         </nav>
       </main>
       <style jsx>{`
         @media only screen and (max-width: 1200px) {
-          .navbar { padding: 1rem 2rem; }
+          .navbar {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+          }
+          .navbar-brand { margin: auto; }
+          .nav-items a {
+            padding: 0 1rem;
+          }
         }
         @media only screen and (min-width: 1200px) {
-          .navbar { padding: 1rem 20rem; }
+          .navbar {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            padding: 1rem 20rem;
+          }
+          .nav-items {
+            display: flex;
+            justify-content: flex-end;
+          }
+          .nav-items a {
+            margin-left: 3rem;
+          }
         }
         @media only screen and (min-width: 1600px) {
           .navbar { padding: 1rem 30rem; }
@@ -75,8 +94,6 @@ export default function Navbar() {
         .navbar {
           background-color: #000;
           width: 100%;
-          display: flex;
-          justify-content: space-between;
         }
         .navbar a {
           color: #fff;
@@ -86,18 +103,12 @@ export default function Navbar() {
           cursor: pointer;
         }
 
-        #nav-items {
-          display: flex;
-          justify-content: flex-end;
-        }
-
-        .navbar-nav a {
+        .nav-items a {
           font-size: 14px;
           font-weight: 500;
-          margin-left: 3rem;
-          transition: 0.3s ease-in-out;
+          transition: 0.2s ease-in;
         }
-        .navbar-nav a:hover {
+        .nav-items a:hover {
           color: rgba(255,255,255,0.6);
         }
       `}</style>
