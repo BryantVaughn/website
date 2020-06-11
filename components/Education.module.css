@@ -14,7 +14,8 @@
   .container { width: 70%; }
 }
 .container {
-  margin: auto auto 2rem auto;
+  margin: auto;
+  margin-bottom: 2.5rem;
   text-align: center;
 }
 .container h6 {
@@ -34,7 +35,7 @@
 }
 
 .school {
-  margin-top: 1.5rem;
+  margin-top: 2rem;
   text-transform: uppercase;
   letter-spacing: 0.15rem;
   font-weight: 300;
@@ -45,8 +46,8 @@
   text-transform: uppercase;
   letter-spacing: 0.1rem;
   font-weight: 500;
-  margin-top: 2rem;
-  margin-bottom: 0;
+  margin-top: 2.5rem;
+  
 }
 
 .columns {
@@ -63,3 +64,31 @@
 }
 .column:first-child { margin-left: 0; }
 .column:last-child { margin-right: 0; }
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.buttons button {
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  background-color: transparent;
+  width: 60%;
+  margin: 0.2rem;
+  transition: 0.2s ease-in;
+}
+.buttons button:hover {
+  background-color: rgba(0,0,0,0.05);
+}
+.buttons a {
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 300;
+  letter-spacing: 0.1rem;
+  color: rgb(0,0,0);
+  width: 100%;
+}

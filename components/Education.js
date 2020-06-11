@@ -6,7 +6,7 @@ export default function Education() {
       <h3 className={styles.title}>Education</h3>
       <div className={styles.container}>
         <h5 className={styles.school}>
-          Metropoptan State University of Denver
+          Metropolitan State University of Denver
         </h5>
         <h6>Bachelor of Science, Computer Science</h6>
         <h6>Cum Laude Honors</h6>
@@ -22,15 +22,15 @@ export default function Education() {
               Digital Image Processing
             </p>
             <p>
-              Probabipty & Statistics
+              Probability & Statistics
             </p>
           </div>
           <div className={styles.column}>
             <p>
-              Calculus III
+              Algorithms & Algorithm Analysis
             </p>
             <p>
-              Algorithms & Algorithm Analysis
+              Calculus III
             </p>
             <p>
               Computer & Network Security
@@ -48,6 +48,24 @@ export default function Education() {
             </p>
           </div>
         </section>
+        <div className={styles.buttons}>
+          <button>
+            <a
+              href="https://github.com/sheet-t/HPotter_4360"
+              target="_blank"
+            >
+              View Senior Project
+            </a>
+          </button>
+          <button>
+            <a
+              href="https://drive.google.com/file/d/1HleLFbs8FaJFd29nFHEcSbbq76YWdPdZ/view?usp=sharing"
+              target="_blank"
+            >
+              View Academic Transcript
+            </a>
+          </button>
+        </div>
       </div>
     </>
   );
