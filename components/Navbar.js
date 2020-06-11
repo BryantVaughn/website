@@ -92,7 +92,7 @@ export default function Navbar() {
           .navbar { padding: 1rem 35rem; }
         }
         .navbar {
-          background-color: #000;
+          background-color: rgb(0,0,0);
           width: 100%;
         }
         .navbar a {
