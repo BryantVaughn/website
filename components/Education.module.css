@@ -1,0 +1,65 @@
+@media only screen and (max-width: 1080px) {
+  .container { width: 95%; }
+}
+@media only screen and (min-width: 1080px) {
+  .container { width: 90%; }
+}
+@media only screen and (min-width: 1600px) {
+  .container { width: 85%; }
+}
+@media only screen and (min-width: 1900px) {
+  .container { width: 75%; }
+}
+@media only screen and (min-width: 2160px) {
+  .container { width: 70%; }
+}
+.container {
+  margin: auto auto 2rem auto;
+  text-align: center;
+}
+.container h6 {
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  font-weight: 200;
+}
+.container p {
+  font-weight: 200;
+}
+
+.title {
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.15rem;
+  font-weight: 300;
+}
+
+.school {
+  margin-top: 1.5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.15rem;
+  font-weight: 300;
+}
+
+.courseHead {
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  font-weight: 500;
+  margin-top: 2rem;
+  margin-bottom: 0;
+}
+
+.columns {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+}
+
+.column {
+  flex: 1;
+  text-align: center;
+	margin: 2px;
+  padding: 1rem;
+}
+.column:first-child { margin-left: 0; }
+.column:last-child { margin-right: 0; }

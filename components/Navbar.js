@@ -46,9 +46,9 @@ export default function Navbar() {
               Resume
             </a>
             <a
-              onClick={(evt) => handleClick(evt, "projects")}
+              onClick={(evt) => handleClick(evt, "experience")}
             >
-              Projects
+              Experience
             </a>
             <a
               onClick={(evt) => handleClick(evt, "contact")}

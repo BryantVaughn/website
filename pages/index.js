@@ -2,7 +2,7 @@ import Head from 'next/head';
 import Navbar from '../components/Navbar';
 import Bio from '../components/Bio';
 import Resume from '../components/Resume';
-import ProjectList from '../components/ProjectList';
+import Experience from '../components/Experience';
 import Contact from '../components/Contact';
 import denverImg from '../public/img/denver.jpg';
 import resumeImg from '../public/img/resumeImg.jpg';
@@ -27,8 +27,8 @@ export default function Home() {
         <div className="resume" id="resume">
           <Resume />
         </div>
-        <div className="projects" id="projects">
-          <ProjectList />
+        <div id="experience">
+          <Experience />
         </div>
         <div className="contact" id="contact">
           <Contact />
