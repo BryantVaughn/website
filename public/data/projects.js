@@ -27,7 +27,7 @@ export default [
 	{
 		title: 'Chee-Z-Jokes',
 		description:
-			"This is a fun joke app that I built to practice with CSS animations and React. It utilizes a dad jokes API to retrieve jokes and populate the list. Up and down voting jokes will change the emoji. My favorite feature is the laughing animation when hovering over the large emoji. This app is currently built for larger screens and isn't compatible with mobile screens.",
+			'This is a fun joke app that I built to practice with CSS animations and React. It utilizes a dad jokes API to retrieve jokes and populate the list. Up and down voting jokes will change the emoji. My favorite feature is the laughing animation when hovering over the large emoji. This app is currently built for larger screens.',
 		image: `${dadJokesImg}`,
 		githubUrl: 'https://github.com/BryantVaughn/CheeZjokes',
 		url: 'https://chee-z-jokes.bryantvaughn.now.sh/',
