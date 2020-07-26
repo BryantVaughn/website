@@ -1,53 +1,67 @@
 @media only screen and (max-width: 1080px) {
-  .container { width: 95%; }
+	.container {
+		width: 95%;
+	}
 }
 @media only screen and (min-width: 1080px) {
-  .container { width: 90%; }
+	.container {
+		width: 90%;
+	}
 }
 @media only screen and (min-width: 1600px) {
-  .container { width: 85%; }
+	.container {
+		width: 85%;
+	}
 }
 @media only screen and (min-width: 1900px) {
-  .container { width: 75%; }
+	.container {
+		width: 75%;
+	}
 }
 @media only screen and (min-width: 2160px) {
-  .container { width: 70%; }
+	.container {
+		width: 70%;
+	}
 }
 .container {
-  margin: auto;
-  margin-bottom: 2.5rem;
-  text-align: center;
+	margin: auto;
+	margin-bottom: 2.5rem;
+	text-align: center;
 }
 .container h6 {
-  text-transform: uppercase;
-  letter-spacing: 0.1rem;
-  font-weight: 200;
+	text-transform: uppercase;
+	letter-spacing: 0.1rem;
+	font-weight: 200;
+}
+.grad {
+	text-transform: uppercase;
+	letter-spacing: 0.1rem;
+	font-size: 90%;
 }
 .container p {
-  font-weight: 200;
+	font-weight: 200;
 }
 
 .title {
-  text-align: center;
-  text-transform: uppercase;
-  letter-spacing: 0.15rem;
-  font-weight: 300;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 0.15rem;
+	font-weight: 300;
 }
 
 .school {
-  margin-top: 2rem;
-  text-transform: uppercase;
-  letter-spacing: 0.15rem;
-  font-weight: 300;
+	margin-top: 2rem;
+	text-transform: uppercase;
+	letter-spacing: 0.15rem;
+	font-weight: 300;
 }
 
 .courseHead {
-  font-size: 16px;
-  text-transform: uppercase;
-  letter-spacing: 0.1rem;
-  font-weight: 500;
-  margin-top: 2.5rem;
-  
+	font-size: 16px;
+	text-transform: uppercase;
+	letter-spacing: 0.1rem;
+	font-weight: 500;
+	margin-top: 2.5rem;
 }
 
 .columns {
@@ -57,38 +71,42 @@
 }
 
 .column {
-  flex: 1;
-  text-align: center;
+	flex: 1;
+	text-align: center;
 	margin: 2px;
-  padding: 1rem;
+	padding: 1rem;
 }
-.column:first-child { margin-left: 0; }
-.column:last-child { margin-right: 0; }
+.column:first-child {
+	margin-left: 0;
+}
+.column:last-child {
+	margin-right: 0;
+}
 
 .buttons {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
 }
 .buttons button {
-  border: none;
-  border-radius: 5px;
-  outline: none;
-  background-color: transparent;
-  width: 60%;
-  margin: 0.2rem;
-  transition: 0.2s ease-in;
+	border: none;
+	border-radius: 5px;
+	outline: none;
+	background-color: transparent;
+	width: 60%;
+	margin: 0.2rem;
+	transition: 0.2s ease-in;
 }
 .buttons button:hover {
-  background-color: rgba(0,0,0,0.05);
+	background-color: rgba(0, 0, 0, 0.05);
 }
 .buttons a {
-  display: inline-block;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-weight: 300;
-  letter-spacing: 0.1rem;
-  color: rgb(0,0,0);
-  width: 100%;
+	display: inline-block;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: 300;
+	letter-spacing: 0.1rem;
+	color: rgb(0, 0, 0);
+	width: 100%;
 }
