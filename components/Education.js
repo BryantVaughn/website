@@ -9,8 +9,7 @@ export default function Education() {
 					Metropolitan State University of Denver
 				</h5>
 				<h6>Bachelor of Science, Computer Science</h6>
-				<p>Dec. 2019</p>
-				<p>Cum Laude Honors</p>
+				<p className={styles.grad}>Dec. 2019 - Cum Laude Honors</p>
 				<p className={styles.courseHead}>Relevant / favorite courses</p>
 				<section className={styles.columns}>
 					<div className={styles.column}>
