@@ -4,6 +4,7 @@ import dadJokesImg from '../img/dadJokes.png';
 import lightsOutImg from '../img/lightsOut.png';
 import diceGameImg from '../img/diceGame.png';
 import demoSiteImg from '../img/demoSite.png';
+import etchASketch from '../img/etchASketch.png';
 
 export default [
 	{
@@ -32,6 +33,14 @@ export default [
 		githubUrl: 'https://github.com/BryantVaughn/CheeZjokes',
 		url: 'https://chee-z-jokes.bryantvaughn.now.sh/',
 		id: 3
+	},
+	{
+		title: 'Etch-A-Sketch',
+		description:
+			'This is a fun Etch-A-Sketch simulator built to practice with DOM manipulation and event listeners. This is built entirely with HTML, CSS, and JS to create the functionality of an Etch-A-Sketch with your mouse. My favorite feature is the animated shake when clearing the board!',
+		image: `${etchASketch}`,
+		githubUrl: 'https://github.com/BryantVaughn/Etch-A-Sketch',
+		url: 'https://bryantvaughn.github.io/Etch-A-Sketch/'
 	},
 	{
 		title: 'Lights Out',
