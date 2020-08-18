@@ -23,7 +23,7 @@ export default [
 			'A simple JS calculator built purely with HTML, CSS, and JS. It is built to interact with button clicks and also allows for keyboard entry of numbers and operations. The calculator can take in multiple operations, however it will calculate the equation from left-to-right, not in the order of operations.',
 		image: `${calculatorImg}`,
 		githubUrl: 'https://github.com/BryantVaughn/calculator',
-		url: '',
+		url: 'https://calculator.bryantvaughn.vercel.app/',
 		id: 2
 	},
 	{
