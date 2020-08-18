@@ -4,7 +4,8 @@ import dadJokesImg from '../img/dadJokes.png';
 import lightsOutImg from '../img/lightsOut.png';
 import diceGameImg from '../img/diceGame.png';
 import demoSiteImg from '../img/demoSite.png';
-import etchASketch from '../img/etchASketch.png';
+import etchASketchImg from '../img/etchASketch.png';
+import calculatorImg from '../img/calculator.png';
 
 export default [
 	{
@@ -17,13 +18,22 @@ export default [
 		id: 1
 	},
 	{
+		title: 'JS Calculator',
+		description:
+			'A simple JS calculator built purely with HTML, CSS, and JS. It is built to interact with button clicks and also allows for keyboard entry of numbers and operations. The calculator can take in multiple operations, however it will calculate the equation from left-to-right, not in the order of operations.',
+		image: `${calculatorImg}`,
+		githubUrl: 'https://github.com/BryantVaughn/calculator',
+		url: 'https://calculator.bryantvaughn.vercel.app/',
+		id: 2
+	},
+	{
 		title: 'Grocery List',
 		description:
 			"This is a simple grocery list app that I built to practice with React hooks for state management. I designed this app mostly for mobile browsers so it's usable when at the store. It utilizes browser storage so you can make your list beforehand then access it when shopping.",
 		image: `${groceryListImg}`,
 		githubUrl: 'https://github.com/BryantVaughn/grocery-list',
 		url: 'https://grocery-list.bryantvaughn.now.sh/',
-		id: 2
+		id: 3
 	},
 	{
 		title: 'Chee-Z-Jokes',
@@ -32,15 +42,16 @@ export default [
 		image: `${dadJokesImg}`,
 		githubUrl: 'https://github.com/BryantVaughn/CheeZjokes',
 		url: 'https://chee-z-jokes.bryantvaughn.now.sh/',
-		id: 3
+		id: 4
 	},
 	{
 		title: 'Etch-A-Sketch',
 		description:
 			'This is a fun Etch-A-Sketch simulator built to practice with DOM manipulation and event listeners. This is built entirely with HTML, CSS, and JS to create the functionality of an Etch-A-Sketch with your mouse. My favorite feature is the animated shake when clearing the board!',
-		image: `${etchASketch}`,
+		image: `${etchASketchImg}`,
 		githubUrl: 'https://github.com/BryantVaughn/Etch-A-Sketch',
-		url: 'https://bryantvaughn.github.io/Etch-A-Sketch/'
+		url: 'https://bryantvaughn.github.io/Etch-A-Sketch/',
+		id: 5
 	},
 	{
 		title: 'Lights Out',
@@ -49,7 +60,7 @@ export default [
 		image: `${lightsOutImg}`,
 		githubUrl: 'https://github.com/BryantVaughn/lights-out',
 		url: 'https://lights-out.bryantvaughn.now.sh/',
-		id: 4
+		id: 6
 	},
 	{
 		title: 'Dice Game',
@@ -58,7 +69,7 @@ export default [
 		image: `${diceGameImg}`,
 		githubUrl: 'https://github.com/BryantVaughn/yahtzee',
 		url: 'https://dice.bryantvaughn.now.sh/',
-		id: 5
+		id: 7
 	},
 	{
 		title: 'Demo Site',
@@ -67,6 +78,6 @@ export default [
 		image: `${demoSiteImg}`,
 		githubUrl: 'https://github.com/BryantVaughn/DemoSite',
 		url: 'https://demo-site.bryantvaughn.now.sh/',
-		id: 6
+		id: 8
 	}
 ];
